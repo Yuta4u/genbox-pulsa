@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #232931;
+}
+
+.navbar {
+  width: 100%;
+  height: 10%;
+  /* text-align: center; */
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.n-img {
+  margin-left: 10%;
+}
+
+.img-eye {
+  width: 12vh;
+  height: 5vh;
+  margin-top: 43px;
+  margin-left: 10%;
+}
+
+.navbar-child {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  margin-left: 20px;
+  color: white;
+  line-height: 100px;
+  font-size: 3vh;
+}
+
+.navbar-main .home {
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  background-color: cornflowerblue;
+  margin-top: 30px;
+  border: 5px solid pink;
+  border-radius: 20%;
+}
+
+.home-judul {
+  width: 100%;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background-color: aquamarine;
+}
+
+.home-profile {
+  width: 80%;
+  height: 300px;
+  background-color: cadetblue;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.home-image {
+  width: 20%;
+  height: 200px;
+  margin: auto;
+  background-color: darkblue;
+}
+
+.home-data {
+  width: 60%;
+  height: 200px;
+  /* background-color: aquamarine;   */
+  margin: auto;
+}
+
+.img-profile {
+  width: 100%;
+  height: 200px;
+}
+
+.home-owner {
+  line-height: 100px;
+  color: rgb(219, 199, 199);
+  /* background-color: cornflowerblue; */
+  font-size: 10vh;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.home-saldo {
+  line-height: 100px;
+  color: rgb(219, 199, 199);
+  /* background-color: darkcyan; */
+  font-size: 5vh;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.home-hr {
+  width: 90%;
+  margin: auto;
+  /* background-color: cornflowerblue; */
+  font-weight: bold;
+}
+
+.n-topup,
+.n-jual,
+.n-riwayat {
+  /* width: 200px; */
+  margin-left: 5%;
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.n-topup:hover {
+  color: rgb(234, 118, 118);
+}
+.n-jual:hover {
+  color: rgb(250, 232, 116);
+}
+.n-riwayat:hover {
+  color: rgb(109, 109, 238);
+}
+
+.riwayat {
+  width: 80%;
+  height: 550px;
+  background-color: darkslateblue;
+  margin: auto;
+  margin-top: 2%;
+  border: 5px solid rgb(58, 58, 58);
+}
+
+.riwayat-judul {
+  text-align: center;
+  color: rgb(219, 199, 199);
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.riwayat-content {
+  width: 95%;
+  background-color: rgb(58, 58, 50);
+  margin: auto;
+  margin-top: 20px;
+  height: 90%;
+}
+
+.riwayat-header {
+  width: 90%;
+  margin: auto;
+  color: rgb(219, 199, 199);
+  display: flex;
+  font-size: 3vh;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.riwayat-nav {
+  background-color: transparent;
+}
+
+.riwayat-isi {
+  width: 90%;
+  margin: auto;
+  height: 25px;
+  background-color: rgba(78, 204, 163, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: transparent;
+  margin-top: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5px;
+  /* margin-left: 20px; */
+  color: rgb(219, 199, 199);
+}
+
+.topup {
+  margin: auto;
+  text-align: center;
+  color: rgb(246, 216, 216);
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(246, 216, 216);
+  opacity: 10; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(246, 216, 216);
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(246, 216, 216);
+  opacity: 1;
+}
+
+textarea:focus,
+input:focus {
+  color: #74f8d7;
+}
+
+input,
+select,
+textarea {
+  color: rgb(199, 193, 193);
+}
+
+button {
+  color: rgb(65, 60, 60);
+  width: 50px;
+  background-color: rgb(207, 205, 202);
+}
+
+.form-jual-child {
+  width: 100%;
+  text-align: center;
+}
